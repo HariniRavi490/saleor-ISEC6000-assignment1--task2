@@ -43,7 +43,7 @@ Saleor Platform is the easiest way to start local development with all the major
 To clone the repository, run the following command
 
 ```
-git clone https://github.com/saleor/saleor-platform.git
+ git clone https://github.com/HariniRavi490/saleor-ISEC6000-assignment1--task2.git
 ```
 
 ## How to run it?
@@ -55,7 +55,7 @@ git clone https://github.com/saleor/saleor-platform.git
 
 2. Go to the cloned directory:
 ```shell
-cd saleor-platform
+cd saleor-ISEC6000-assignment1--task2
 ```
 
 3. Build the application:
@@ -80,8 +80,9 @@ docker compose up
 ```
 
 ## Where is the application running?
-- Saleor Core (API) - http://localhost:8000
-- Saleor Dashboard - http://localhost:9000
+After the Core(API) and Dashboard ports has been assigned to 3009 and 9003 respectively, the application will be accessible at the below environment.
+- Saleor Core (API) - http://localhost:3009
+- Saleor Dashboard - http://localhost:9003
 - Jaeger UI (APM) - http://localhost:16686
 - Mailpit (Test email interface) - http://localhost:8025
 
@@ -159,16 +160,3 @@ docker compose down --volumes db
   - `docker compose up api worker` for backend services only
   - `docker compose up` for backend and frontend services
 
-## Feedback
-
-If you have any questions or feedback, do not hesitate to contact us via [GitHub Discussions](https://github.com/saleor/saleor/discussions).
-
-## License
-
-Disclaimer: Everything you see here is open and free to use as long as you comply with the [license](https://github.com/saleor/saleor-platform/blob/main/LICENSE). There are no hidden charges. We promise to do our best to fix bugs and improve the code.
-
-Some situations do call for extra code; we can cover exotic use cases or build you a custom e-commerce appliance.
-
-#### Crafted with ❤️ by [Saleor Commerce](https://saleor.io/)
-
-hello@saleor.io
